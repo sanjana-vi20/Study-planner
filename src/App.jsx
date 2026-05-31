@@ -5,10 +5,13 @@ import Home from "./Home";
 import Plan from "./Plan";
 import Progress from "./Progress";
 import Profile from "./SmartTips";
+import Header from "./Header";
 
 function App() {
   return (
+    
     <Router>
+      <Header/>
       <div className="flex min-h-screen">
         <Sidebar />
         <div className="flex-1 p-6 bg-white">
